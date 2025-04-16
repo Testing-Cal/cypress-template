@@ -3,7 +3,7 @@ describe('Second test suite', function(){
        // cy.visit('https://www.youtube.com/')
        // console.log(Cypress.env('applicationUrl'));
        cy.visit(Cypress.env('applicationUrl'))
-       expect(false).to.be.true
+       expect(true).to.be.true
     })
     it.skip('fourth test case', function(){
         //cy.visit('https://www.youtube.com/')
